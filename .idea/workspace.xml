@@ -1,0 +1,993 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e1b97bbc-6e34-47b3-835d-622452d24647" name="Default Changelist" comment="fiabn">
+      <change beforePath="$PROJECT_DIR$/.htaccess" beforeDir="false" afterPath="$PROJECT_DIR$/.htaccess" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/webServers.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/webServers.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/admin/control.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/admin/index_controller.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/admin/validadocumentos_controller.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/app/alumno_controller.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/app/control.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/app/index_controller.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/app/prueba_l.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/app/usuario_controller.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/app/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/config/config.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/config/config.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/index/control.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/index/control.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/index/index_controller.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/index/index_controller.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/index/login_controller.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/index/pre_registro_controller.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/index/prueba_controller.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/index/requisitos_controller.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/lib/util.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/lib/util.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/modelos/AlumnoModel.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/modelos/ConyugeModel.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/modelos/Dao.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/modelos/Dao.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/modelos/DerechohabienteModel.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/modelos/DirecionModel.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/modelos/PersonaAutorizadaModel.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/modelos/PersonaModel.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/modelos/PreRegistroModel.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/modelos/UsuarioModel.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/modelos/UtilModel.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/uploads/15550550734088315868718076620534.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/uploads/52612816_2029769387324912_224381740221726720_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/uploads/CONECTA.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/uploads/IMG-20190410-WA0022.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/uploads/a.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/uploads/miel san marcos.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/uploads/photos/0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/uploads/photos/1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/uploads/photos/1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/uploads/photos/2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/uploads/photos/3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/uploads/photos/6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/uploads/pp.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/uploads/recetas-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/vendor/autoload.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/vendor/autoload.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/vendor/composer/ClassLoader.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/vendor/composer/ClassLoader.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/vendor/composer/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/app/vendor/composer/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/vendor/composer/autoload_classmap.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/vendor/composer/autoload_classmap.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/vendor/composer/autoload_namespaces.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/vendor/composer/autoload_namespaces.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/vendor/composer/autoload_psr4.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/vendor/composer/autoload_psr4.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/vendor/composer/autoload_real.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/vendor/composer/autoload_real.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/vendor/composer/autoload_static.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/vendor/composer/autoload_static.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/vendor/composer/installed.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/vendor/composer/installed.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/vendor/phpmailer/phpmailer/COMMITMENT" beforeDir="false" afterPath="$PROJECT_DIR$/app/vendor/phpmailer/phpmailer/COMMITMENT" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/vendor/phpmailer/phpmailer/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/app/vendor/phpmailer/phpmailer/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/vendor/phpmailer/phpmailer/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/app/vendor/phpmailer/phpmailer/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/vendor/phpmailer/phpmailer/SECURITY.md" beforeDir="false" afterPath="$PROJECT_DIR$/app/vendor/phpmailer/phpmailer/SECURITY.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/vendor/phpmailer/phpmailer/VERSION" beforeDir="false" afterPath="$PROJECT_DIR$/app/vendor/phpmailer/phpmailer/VERSION" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/vendor/phpmailer/phpmailer/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/vendor/phpmailer/phpmailer/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/vendor/phpmailer/phpmailer/get_oauth_token.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/vendor/phpmailer/phpmailer/get_oauth_token.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/vendor/phpmailer/phpmailer/language/phpmailer.lang-am.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/vendor/phpmailer/phpmailer/language/phpmailer.lang-am.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/vendor/phpmailer/phpmailer/language/phpmailer.lang-ar.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/vendor/phpmailer/phpmailer/language/phpmailer.lang-ar.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/vendor/phpmailer/phpmailer/language/phpmailer.lang-az.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/vendor/phpmailer/phpmailer/language/phpmailer.lang-az.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/vendor/phpmailer/phpmailer/language/phpmailer.lang-ba.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/vendor/phpmailer/phpmailer/language/phpmailer.lang-ba.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/vendor/phpmailer/phpmailer/language/phpmailer.lang-be.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/vendor/phpmailer/phpmailer/language/phpmailer.lang-be.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/vendor/phpmailer/phpmailer/language/phpmailer.lang-bg.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/vendor/phpmailer/phpmailer/language/phpmailer.lang-bg.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/vendor/phpmailer/phpmailer/language/phpmailer.lang-ca.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/vendor/phpmailer/phpmailer/language/phpmailer.lang-ca.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/vendor/phpmailer/phpmailer/language/phpmailer.lang-ch.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/vendor/phpmailer/phpmailer/language/phpmailer.lang-ch.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/vendor/phpmailer/phpmailer/language/phpmailer.lang-cs.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/vendor/phpmailer/phpmailer/language/phpmailer.lang-cs.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/vendor/phpmailer/phpmailer/language/phpmailer.lang-da.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/vendor/phpmailer/phpmailer/language/phpmailer.lang-da.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/vendor/phpmailer/phpmailer/language/phpmailer.lang-de.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/vendor/phpmailer/phpmailer/language/phpmailer.lang-de.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/vendor/phpmailer/phpmailer/language/phpmailer.lang-el.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/vendor/phpmailer/phpmailer/language/phpmailer.lang-el.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/vendor/phpmailer/phpmailer/language/phpmailer.lang-eo.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/vendor/phpmailer/phpmailer/language/phpmailer.lang-eo.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/vendor/phpmailer/phpmailer/language/phpmailer.lang-es.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/vendor/phpmailer/phpmailer/language/phpmailer.lang-es.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/vendor/phpmailer/phpmailer/language/phpmailer.lang-et.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/vendor/phpmailer/phpmailer/language/phpmailer.lang-et.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/vendor/phpmailer/phpmailer/language/phpmailer.lang-fa.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/vendor/phpmailer/phpmailer/language/phpmailer.lang-fa.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/vendor/phpmailer/phpmailer/language/phpmailer.lang-fi.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/vendor/phpmailer/phpmailer/language/phpmailer.lang-fi.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/vendor/phpmailer/phpmailer/language/phpmailer.lang-fo.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/vendor/phpmailer/phpmailer/language/phpmailer.lang-fo.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/vendor/phpmailer/phpmailer/language/phpmailer.lang-fr.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/vendor/phpmailer/phpmailer/language/phpmailer.lang-fr.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/vendor/phpmailer/phpmailer/language/phpmailer.lang-gl.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/vendor/phpmailer/phpmailer/language/phpmailer.lang-gl.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/vendor/phpmailer/phpmailer/language/phpmailer.lang-he.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/vendor/phpmailer/phpmailer/language/phpmailer.lang-he.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/vendor/phpmailer/phpmailer/language/phpmailer.lang-hi.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/vendor/phpmailer/phpmailer/language/phpmailer.lang-hi.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/vendor/phpmailer/phpmailer/language/phpmailer.lang-hr.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/vendor/phpmailer/phpmailer/language/phpmailer.lang-hr.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/vendor/phpmailer/phpmailer/language/phpmailer.lang-hu.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/vendor/phpmailer/phpmailer/language/phpmailer.lang-hu.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/vendor/phpmailer/phpmailer/language/phpmailer.lang-id.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/vendor/phpmailer/phpmailer/language/phpmailer.lang-id.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/vendor/phpmailer/phpmailer/language/phpmailer.lang-it.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/vendor/phpmailer/phpmailer/language/phpmailer.lang-it.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/vendor/phpmailer/phpmailer/language/phpmailer.lang-ja.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/vendor/phpmailer/phpmailer/language/phpmailer.lang-ja.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/vendor/phpmailer/phpmailer/language/phpmailer.lang-ka.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/vendor/phpmailer/phpmailer/language/phpmailer.lang-ka.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/vendor/phpmailer/phpmailer/language/phpmailer.lang-ko.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/vendor/phpmailer/phpmailer/language/phpmailer.lang-ko.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/vendor/phpmailer/phpmailer/language/phpmailer.lang-lt.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/vendor/phpmailer/phpmailer/language/phpmailer.lang-lt.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/vendor/phpmailer/phpmailer/language/phpmailer.lang-lv.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/vendor/phpmailer/phpmailer/language/phpmailer.lang-lv.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/vendor/phpmailer/phpmailer/language/phpmailer.lang-mg.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/vendor/phpmailer/phpmailer/language/phpmailer.lang-mg.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/vendor/phpmailer/phpmailer/language/phpmailer.lang-ms.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/vendor/phpmailer/phpmailer/language/phpmailer.lang-ms.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/vendor/phpmailer/phpmailer/language/phpmailer.lang-nb.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/vendor/phpmailer/phpmailer/language/phpmailer.lang-nb.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/vendor/phpmailer/phpmailer/language/phpmailer.lang-nl.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/vendor/phpmailer/phpmailer/language/phpmailer.lang-nl.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/vendor/phpmailer/phpmailer/language/phpmailer.lang-pl.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/vendor/phpmailer/phpmailer/language/phpmailer.lang-pl.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/vendor/phpmailer/phpmailer/language/phpmailer.lang-pt.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/vendor/phpmailer/phpmailer/language/phpmailer.lang-pt.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/vendor/phpmailer/phpmailer/language/phpmailer.lang-pt_br.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/vendor/phpmailer/phpmailer/language/phpmailer.lang-pt_br.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/vendor/phpmailer/phpmailer/language/phpmailer.lang-ro.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/vendor/phpmailer/phpmailer/language/phpmailer.lang-ro.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/vendor/phpmailer/phpmailer/language/phpmailer.lang-ru.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/vendor/phpmailer/phpmailer/language/phpmailer.lang-ru.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/vendor/phpmailer/phpmailer/language/phpmailer.lang-sk.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/vendor/phpmailer/phpmailer/language/phpmailer.lang-sk.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/vendor/phpmailer/phpmailer/language/phpmailer.lang-sl.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/vendor/phpmailer/phpmailer/language/phpmailer.lang-sl.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/vendor/phpmailer/phpmailer/language/phpmailer.lang-sr.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/vendor/phpmailer/phpmailer/language/phpmailer.lang-sr.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/vendor/phpmailer/phpmailer/language/phpmailer.lang-sv.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/vendor/phpmailer/phpmailer/language/phpmailer.lang-sv.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/vendor/phpmailer/phpmailer/language/phpmailer.lang-tl.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/vendor/phpmailer/phpmailer/language/phpmailer.lang-tl.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/vendor/phpmailer/phpmailer/language/phpmailer.lang-tr.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/vendor/phpmailer/phpmailer/language/phpmailer.lang-tr.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/vendor/phpmailer/phpmailer/language/phpmailer.lang-uk.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/vendor/phpmailer/phpmailer/language/phpmailer.lang-uk.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/vendor/phpmailer/phpmailer/language/phpmailer.lang-vi.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/vendor/phpmailer/phpmailer/language/phpmailer.lang-vi.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/vendor/phpmailer/phpmailer/language/phpmailer.lang-zh.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/vendor/phpmailer/phpmailer/language/phpmailer.lang-zh.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/vendor/phpmailer/phpmailer/language/phpmailer.lang-zh_cn.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/vendor/phpmailer/phpmailer/language/phpmailer.lang-zh_cn.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/vendor/phpmailer/phpmailer/src/Exception.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/vendor/phpmailer/phpmailer/src/Exception.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/vendor/phpmailer/phpmailer/src/OAuth.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/vendor/phpmailer/phpmailer/src/OAuth.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/vendor/phpmailer/phpmailer/src/PHPMailer.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/vendor/phpmailer/phpmailer/src/PHPMailer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/vendor/phpmailer/phpmailer/src/POP3.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/vendor/phpmailer/phpmailer/src/POP3.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/vendor/phpmailer/phpmailer/src/SMTP.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/vendor/phpmailer/phpmailer/src/SMTP.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/vistas/admin/vis_dashboard.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/vistas/admin/vis_listar_alumnos.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/vistas/admin/vis_valida_documentos.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/vistas/app/vis_dashboard.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/vistas/app/vis_listar_alumnos.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/vistas/app/vis_registro_paso1.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/vistas/app/vis_registro_paso2.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/vistas/app/vis_registro_paso3.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/vistas/app/vis_registro_paso4.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/vistas/index/vis_error.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/vistas/index/vis_error.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/vistas/index/vis_error_custom.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/vistas/index/vis_index.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/vistas/index/vis_index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/vistas/index/vis_login.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/vistas/index/vis_login.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/vistas/index/vis_pre_registro.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/vistas/index/vis_pre_registro_ok.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/vistas/index/vis_pre_registro_paso2.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/vistas/index/vis_requisitos.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/vistas/layout/fotter_admin.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/vistas/layout/fotter_app.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/vistas/layout/fotter_index.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/vistas/layout/fotter_index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/vistas/layout/header_admin.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/vistas/layout/header_app.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/vistas/layout/header_index.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/vistas/layout/header_index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/vistas/layout/nav_admin.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/vistas/layout/nav_app.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/vistas/layout/nav_index.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/vistas/layout/nav_index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/vistas/layout_admin.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/vistas/layout_app.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/vistas/layout_index.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/vistas/layout_index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prepros-6.config" beforeDir="false" afterPath="$PROJECT_DIR$/prepros-6.config" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/Editando_ Sin título _ Diagrama.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/_fileupload.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/_fileupload.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/_landing.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/_medias.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/datepicker.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/dropzone.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/flat-ui.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/flat-ui.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/prueba_l.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/style-dist.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/style.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/upload.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/vendor/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/public/favicon.ico" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/glyphicons/flat-ui-pro-icons-regular.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/glyphicons/flat-ui-pro-icons-regular.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/glyphicons/flat-ui-pro-icons-regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/glyphicons/flat-ui-pro-icons-regular.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/glyphicons/selection.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/lato/lato-black.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/lato/lato-black.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/lato/lato-black.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/lato/lato-black.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/lato/lato-bold.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/lato/lato-bold.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/lato/lato-bold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/lato/lato-bold.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/lato/lato-bolditalic.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/lato/lato-bolditalic.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/lato/lato-bolditalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/lato/lato-bolditalic.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/lato/lato-italic.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/lato/lato-italic.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/lato/lato-italic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/lato/lato-italic.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/lato/lato-light.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/lato/lato-light.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/lato/lato-light.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/lato/lato-light.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/lato/lato-regular.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/lato/lato-regular.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/lato/lato-regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/lato/lato-regular.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/Escuela_Superior_de_Computo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/icons/android.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/icons/android1.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/icons/app-store.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/icons/arrow.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/icons/art.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/icons/bag.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/icons/basket.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/icons/book.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/icons/bowling.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/icons/box.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/icons/brush.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/icons/building.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/icons/bulb.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/icons/button.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/icons/calculator.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/icons/calendar.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/icons/camera.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/icons/car.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/icons/card.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/icons/chair.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/icons/chat.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/icons/clipboard.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/icons/clocks.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/icons/compas.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/icons/converse.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/icons/cup.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/icons/dj.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/icons/donut.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/icons/dude.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/icons/dynamite.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/icons/earth.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/icons/egg.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/icons/eye.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/icons/file.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/icons/fit.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/icons/flag.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/icons/flask.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/icons/flower.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/icons/games.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/icons/gift-box.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/icons/girl.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/icons/goal.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/icons/google.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/icons/graph.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/icons/icecream.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/icons/imac.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/icons/ipad.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/icons/iphone.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/icons/key.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/icons/lettersymbol.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/icons/lock.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/icons/loop.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/icons/macbook.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/icons/magic.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/icons/magicmouse.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/icons/mail.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/icons/map.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/icons/medal.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/icons/mic.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/icons/money.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/icons/mortarboard.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/icons/mountain.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/icons/news.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/icons/paper-bag.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/icons/pc.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/icons/pencil.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/icons/pencils.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/icons/picture.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/icons/pig.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/icons/pills.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/icons/play.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/icons/printer.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/icons/responsive.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/icons/retina.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/icons/ribbon.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/icons/ring.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/icons/rocket.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/icons/rss.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/icons/safe.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/icons/save.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/icons/search.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/icons/settings.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/icons/shield.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/icons/shirt.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/icons/skateboard.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/icons/spray.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/icons/storage.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/icons/support.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/icons/ticket.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/icons/toilet-paper.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/icons/touch.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/icons/trash.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/icons/trip-bag.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/icons/trunk.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/icons/ubmrella.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/icons/user-interface.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/icons/video.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/icons/weather.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/icons/wi-fi.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/icons/wine.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/icons/yinyang.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/landing/a1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/landing/a2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/landing/error.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/logo/cover_logo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/logo/logo-ipn.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/logo/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/logo/logo_h.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/logo/logo_header.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/logo/logo_hh.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/logo/logo_ipn.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/nav.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/core.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/datepicker.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/dropzone.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/i18n/datepicker.cs.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/i18n/datepicker.da.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/i18n/datepicker.de.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/i18n/datepicker.en.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/i18n/datepicker.es.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/i18n/datepicker.fi.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/i18n/datepicker.fr.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/i18n/datepicker.hu.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/i18n/datepicker.nl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/i18n/datepicker.pl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/i18n/datepicker.pt-BR.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/i18n/datepicker.pt.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/i18n/datepicker.ro.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/i18n/datepicker.sk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/i18n/datepicker.zh.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/index/pre_registro_paso2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/jquery.accordion-wizard.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/update.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/upload.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/uploadfun.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/scripts/application.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/scripts/flat-ui.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/scripts/flat-ui.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tt.sql" beforeDir="false" afterPath="$PROJECT_DIR$/tt.sql" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/app/composer.json</pharConfigPath>
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="cendi@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="cendi@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="cendi@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="cendi: schema" type="76f4a085:MysqlImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="cendi@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="cendi: schema" type="76f4a085:MysqlImplModel$Schema" />
+        <item name="procesoinscripcion: table" type="285a2a93:MysqlImplModel$Table" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/vistas/layout_index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" column="2" lean-forward="true" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/index/index_controller.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="259">
+              <caret line="46" column="38" selection-start-line="46" selection-start-column="38" selection-end-line="46" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/modelos/Dao.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="190">
+              <caret line="111" column="25" selection-start-line="111" selection-start-column="20" selection-end-line="111" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/vistas/layout/fotter_index.php">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/vistas/layout/nav_index.php">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/vistas/layout/header_index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" column="46" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="46" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/vistas/index/vis_index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="39" selection-start-line="4" selection-start-column="35" selection-end-line="4" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.htaccess">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/config/config.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" column="28" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/index/control.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="SCSS File" />
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>Falta</find>
+      <find>intro-heading text-uppercase</find>
+      <find>d-fle</find>
+      <find>d-flex</find>
+      <find>est_doc1</find>
+      <find>chdil</find>
+      <find>form demo_form</find>
+      <find>form</find>
+      <find>.filelists</find>
+      <find>&lt;form</find>
+      <find>nombre</find>
+      <find>Escola</find>
+      <find>escolarida</find>
+      <find>escolaridad</find>
+      <find>pri</find>
+      <find>prin</find>
+      <find>.sidebar-wrapper .sidebar-header .user-pic img</find>
+      <find>sidebar-footer</find>
+      <find>.chiller-theme .sidebar-wrapper .sidebar-menu ul li a i, .chiller-theme .sidebar-wrapper .sidebar-menu .sidebar-dropdown div, .chiller-theme .sidebar-wrapper .sidebar-search input.search-menu, .chiller-theme .sidebar-wrapper .sidebar-search .input-group-text</find>
+      <find>.chiller-theme .sidebar-footer</find>
+      <find>.page-wrapper .page-content &gt; div</find>
+      <find>Pre-registro de Inscripción</find>
+      <find>dashboard</find>
+      <find>.chiller-theme .sidebar-wrapper</find>
+      <find>page-content</find>
+      <find>sea</find>
+      <find>Pre-registro</find>
+      <find>Pre-Registro</find>
+      <find>.page-wrapper.toggled .page-content</find>
+      <find>genera_controll</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/app/modelos/PersonaAutorizadaModel.php" />
+        <option value="$PROJECT_DIR$/app/modelos/ConyugeModel.php" />
+        <option value="$PROJECT_DIR$/public/css/_fileupload.css" />
+        <option value="$PROJECT_DIR$/app/modelos/AlumnoModel.php" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/e4dc99de-1ffa-47e8-a091-b76c8cc7a35c/console.sql" />
+        <option value="$PROJECT_DIR$/app/vistas/app/vis_dashboard.php" />
+        <option value="$PROJECT_DIR$/app/admin/index_controller.php" />
+        <option value="$PROJECT_DIR$/app/vistas/layout/header_admin.php" />
+        <option value="$PROJECT_DIR$/app/vistas/layout_admin.php" />
+        <option value="$PROJECT_DIR$/app/vistas/admin/vis_listar_alumnos.php" />
+        <option value="$PROJECT_DIR$/app/admin/validadocumentos_controller.php" />
+        <option value="$PROJECT_DIR$/app/vistas/admin/vis_valida_documentos.php" />
+        <option value="$PROJECT_DIR$/app/vistas/layout/nav_admin.php" />
+        <option value="$PROJECT_DIR$/app/index/login_controller.php" />
+        <option value="$PROJECT_DIR$/app/vistas/layout/fotter_admin.php" />
+        <option value="$PROJECT_DIR$/app/app/alumno_controller.php" />
+        <option value="$PROJECT_DIR$/app/index/prueba_controller.php" />
+        <option value="$PROJECT_DIR$/app/vistas/index/vis_error_custom.php" />
+        <option value="$PROJECT_DIR$/app/index/pre_registro_controller.php" />
+        <option value="$PROJECT_DIR$/public/css/style.scss" />
+        <option value="$PROJECT_DIR$/public/css/_fileupload.scss" />
+        <option value="$PROJECT_DIR$/public/js/update.js" />
+        <option value="$PROJECT_DIR$/public/js/index/pre_registro_paso2.js" />
+        <option value="$PROJECT_DIR$/app/modelos/PreRegistroModel.php" />
+        <option value="$PROJECT_DIR$/app/admin/control.php" />
+        <option value="$PROJECT_DIR$/app/app/prueba_l.php" />
+        <option value="$PROJECT_DIR$/app/vistas/layout/fotter_app.php" />
+        <option value="$PROJECT_DIR$/app/vistas/layout_app.php" />
+        <option value="$PROJECT_DIR$/app/vistas/layout/header_app.php" />
+        <option value="$PROJECT_DIR$/app/modelos/UsuarioModel.php" />
+        <option value="$PROJECT_DIR$/app/app/control.php" />
+        <option value="$PROJECT_DIR$/app/vistas/app/vis_registro_paso1.php" />
+        <option value="$PROJECT_DIR$/app/vistas/app/vis_registro_paso2.php" />
+        <option value="$PROJECT_DIR$/app/vistas/app/vis_registro_paso3.php" />
+        <option value="$PROJECT_DIR$/app/vistas/app/vis_registro_paso4.php" />
+        <option value="$PROJECT_DIR$/app/vistas/index/vis_pre_registro_ok.php" />
+        <option value="$PROJECT_DIR$/app/vistas/index/vis_pre_registro_paso2.php" />
+        <option value="$PROJECT_DIR$/app/vistas/index/vis_pre_registro.php" />
+        <option value="$PROJECT_DIR$/app/vistas/layout/nav_app.php" />
+        <option value="$PROJECT_DIR$/public/css/prueba_l.css" />
+        <option value="$PROJECT_DIR$/app/lib/util.php" />
+        <option value="$PROJECT_DIR$/app/vistas/layout/nav_index.php" />
+        <option value="$PROJECT_DIR$/app/vistas/layout/header_index.php" />
+        <option value="$PROJECT_DIR$/app/vistas/layout/fotter_index.php" />
+        <option value="$PROJECT_DIR$/.htaccess" />
+        <option value="$PROJECT_DIR$/app/modelos/DerechohabienteModel.php" />
+        <option value="$PROJECT_DIR$/app/index/control.php" />
+        <option value="$PROJECT_DIR$/app/config/config.php" />
+        <option value="$PROJECT_DIR$/app/modelos/Dao.php" />
+        <option value="$PROJECT_DIR$/app/vistas/index/vis_index.php" />
+        <option value="$PROJECT_DIR$/app/index/index_controller.php" />
+      </list>
+    </option>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration">
+    <include_path>
+      <path value="$PROJECT_DIR$/app/vendor/composer" />
+      <path value="$PROJECT_DIR$/app/vendor/phpmailer/phpmailer" />
+    </include_path>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="754" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="ff" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ff" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ff" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ff" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ff" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ff" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ff" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ff" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="index" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ff" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ff" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="modelos" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ff" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ff" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="vistas" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ff" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ff" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="vistas" type="462c0819:PsiDirectoryNode" />
+              <item name="index" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ff" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ff" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="vistas" type="462c0819:PsiDirectoryNode" />
+              <item name="layout" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ff" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ff" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
+    <property name="database.console.LAST_STATE" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\cendi\app\index" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\cendi\app\vistas\index" />
+      <recent name="C:\xampp\htdocs\cendi\app\vistas\admin" />
+      <recent name="C:\xampp\htdocs\cendi\app\admin" />
+      <recent name="C:\xampp\htdocs\cendi\app\app" />
+      <recent name="C:\xampp\htdocs\cendi\app\modelos" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e1b97bbc-6e34-47b3-835d-622452d24647" name="Default Changelist" comment="" />
+      <created>1554693084710</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1554693084710</updated>
+      <workItem from="1554693086042" duration="161000" />
+      <workItem from="1554694342866" duration="8962000" />
+      <workItem from="1554779779324" duration="10988000" />
+      <workItem from="1554815249759" duration="764000" />
+      <workItem from="1555003298395" duration="6607000" />
+      <workItem from="1555014018983" duration="19436000" />
+      <workItem from="1555049907661" duration="3330000" />
+      <workItem from="1555089169386" duration="19659000" />
+      <workItem from="1555266800957" duration="2472000" />
+      <workItem from="1555278396765" duration="786000" />
+      <workItem from="1555336948985" duration="1811000" />
+      <workItem from="1555990531333" duration="5015000" />
+      <workItem from="1556314388919" duration="709000" />
+      <workItem from="1556685327228" duration="659000" />
+      <workItem from="1556745760979" duration="13705000" />
+      <workItem from="1557109451686" duration="5545000" />
+      <workItem from="1557198855733" duration="4982000" />
+      <workItem from="1557247095908" duration="9164000" />
+      <workItem from="1557429128917" duration="4098000" />
+      <workItem from="1557593505023" duration="12714000" />
+      <workItem from="1557680151833" duration="34813000" />
+      <workItem from="1558415907998" duration="1011000" />
+      <workItem from="1558918463921" duration="221000" />
+      <workItem from="1559171269282" duration="345000" />
+      <workItem from="1559272684972" duration="9516000" />
+      <workItem from="1559359144005" duration="5729000" />
+      <workItem from="1559581111688" duration="869000" />
+      <workItem from="1559755139481" duration="905000" />
+      <workItem from="1559866621611" duration="597000" />
+      <workItem from="1567606521279" duration="256000" />
+      <workItem from="1567606966432" duration="5726000" />
+    </task>
+    <task id="LOCAL-00001" summary="cosas del name">
+      <created>1555269623876</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1555269623876</updated>
+    </task>
+    <task id="LOCAL-00002" summary="cosas del name">
+      <created>1556749992036</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1556749992036</updated>
+    </task>
+    <task id="LOCAL-00003" summary="cosas del registro">
+      <created>1557111819546</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1557111819546</updated>
+    </task>
+    <task id="LOCAL-00004" summary="max de cocrreo">
+      <created>1557111891727</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1557111891727</updated>
+    </task>
+    <task id="LOCAL-00005" summary="max de cocrreo">
+      <created>1557113774211</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1557113774211</updated>
+    </task>
+    <task id="LOCAL-00006" summary="sin acentos en psassword">
+      <created>1557114922168</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1557114922168</updated>
+    </task>
+    <task id="LOCAL-00007" summary="fiabn">
+      <created>1557722990195</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1557722990196</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="191555000" />
+  </component>
+  <component name="TodoView" selected-index="3">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="45" y="25" width="1875" height="1055" extended-state="6" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49839228" visible="true" weight="0.14270093" />
+      <window_info id="Structure" order="1" sideWeight="0.5016077" side_tool="true" weight="0.11140725" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32937366" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32829374" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" weight="0.3290461" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.3290461" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32829374" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" weight="0.3290461" />
+      <window_info anchor="bottom" id="File Transfer" order="12" visible="true" weight="0.32829374" />
+      <window_info anchor="bottom" id="Database Console" order="13" weight="0.3290461" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" weight="0.32995737" />
+      <window_info active="true" anchor="right" id="Remote Host" order="4" visible="true" weight="0.32968834" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49839228" visible="true" weight="0.12153518" />
+      <window_info id="Structure" order="1" sideWeight="0.5016077" side_tool="true" weight="0.11140725" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3290461" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" weight="0.3290461" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.3290461" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.3290461" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" weight="0.3290461" />
+      <window_info anchor="bottom" id="File Transfer" order="12" visible="true" weight="0.3290461" />
+      <window_info anchor="bottom" id="Database Console" order="13" weight="0.3290461" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" weight="0.32995737" />
+      <window_info anchor="right" id="Remote Host" order="4" weight="0.32980332" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="cosas del name" />
+    <MESSAGE value="cosas del registro" />
+    <MESSAGE value="max de cocrreo" />
+    <MESSAGE value="sin acentos en psassword" />
+    <MESSAGE value="fiabn" />
+    <option name="LAST_COMMIT_MESSAGE" value="fiabn" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/app/vistas/layout/fotter_admin.php" />
+    <entry file="file://$PROJECT_DIR$/app/index/prueba_controller.php" />
+    <entry file="file://$PROJECT_DIR$/app/vistas/index/vis_login.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/vistas/app/vis_listar_alumnos.php" />
+    <entry file="file://$PROJECT_DIR$/app/vistas/index/vis_error.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/vistas/index/vis_error_custom.php" />
+    <entry file="file://$PROJECT_DIR$/public/css/upload.css" />
+    <entry file="file://$PROJECT_DIR$/app/app/alumno_controller.php" />
+    <entry file="file://$PROJECT_DIR$/public/css/style.scss" />
+    <entry file="file://$PROJECT_DIR$/public/css/_fileupload.scss" />
+    <entry file="file://$PROJECT_DIR$/public/js/update.js" />
+    <entry file="file://$PROJECT_DIR$/app/index/pre_registro_controller.php" />
+    <entry file="file://$PROJECT_DIR$/public/js/index/pre_registro_paso2.js" />
+    <entry file="file://$PROJECT_DIR$/app/vistas/layout/header_admin.php" />
+    <entry file="file://$PROJECT_DIR$/app/vistas/layout/fotter_app.php" />
+    <entry file="file://$PROJECT_DIR$/app/vistas/layout/header_app.php" />
+    <entry file="file://$PROJECT_DIR$/app/app/control.php" />
+    <entry file="file://$PROJECT_DIR$/app/index/login_controller.php" />
+    <entry file="file://$PROJECT_DIR$/app/modelos/UsuarioModel.php" />
+    <entry file="file://$PROJECT_DIR$/app/app/index_controller.php" />
+    <entry file="file://$PROJECT_DIR$/app/vistas/app/vis_dashboard.php" />
+    <entry file="file://$PROJECT_DIR$/app/vistas/index/vis_pre_registro_paso2.php" />
+    <entry file="file://$PROJECT_DIR$/app/vistas/layout/nav_app.php" />
+    <entry file="file://$PROJECT_DIR$/app/vistas/index/vis_pre_registro.php" />
+    <entry file="file://$PROJECT_DIR$/app/vistas/app/vis_registro_paso1.php" />
+    <entry file="file://$PROJECT_DIR$/app/vistas/app/vis_registro_paso2.php" />
+    <entry file="file://$PROJECT_DIR$/app/vistas/app/vis_registro_paso3.php" />
+    <entry file="file://$PROJECT_DIR$/public/css/prueba_l.css" />
+    <entry file="file://$PROJECT_DIR$/app/app/prueba_l.php" />
+    <entry file="file://$PROJECT_DIR$/app/app/usuario_controller.php" />
+    <entry file="file://$PROJECT_DIR$/app/vistas/app/vis_registro_paso4.php" />
+    <entry file="file://$PROJECT_DIR$/app/vistas/index/vis_pre_registro_ok.php" />
+    <entry file="file://$PROJECT_DIR$/app/admin/control.php" />
+    <entry file="file://$PROJECT_DIR$/app/modelos/UtilModel.php" />
+    <entry file="file://$PROJECT_DIR$/app/modelos/PreRegistroModel.php" />
+    <entry file="file://$PROJECT_DIR$/app/modelos/PersonaModel.php" />
+    <entry file="file://$PROJECT_DIR$/app/modelos/PersonaAutorizadaModel.php" />
+    <entry file="file://$PROJECT_DIR$/app/modelos/DirecionModel.php" />
+    <entry file="file://$PROJECT_DIR$/app/vistas/layout_app.php" />
+    <entry file="file://$PROJECT_DIR$/app/lib/util.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="11" column="14" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.htaccess">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/vistas/layout/fotter_index.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/modelos/DerechohabienteModel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1290">
+          <caret line="9" column="26" lean-forward="true" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="28" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/index/control.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/vistas/layout_index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="2" lean-forward="true" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/vistas/layout/nav_index.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/vistas/layout/header_index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="46" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/vistas/index/vis_index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="39" selection-start-line="4" selection-start-column="35" selection-end-line="4" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/modelos/Dao.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="111" column="25" selection-start-line="111" selection-start-column="20" selection-end-line="111" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/index/index_controller.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="259">
+          <caret line="46" column="38" selection-start-line="46" selection-start-column="38" selection-end-line="46" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

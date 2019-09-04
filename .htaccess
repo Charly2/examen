@@ -1,0 +1,11 @@
+ErrorDocument 500 /info.php
+
+    Options -Multiviews
+    RewriteEngine On
+    RewriteBase /ff
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteCond %{REQUEST_FILENAME} !-f
+    DirectoryIndex app/index/control.php?url=index
+#    RewriteRule admin/([^\.]+)$ app/admin/control.php?url=$1 [NC,L]
+#    RewriteRule app/([^\.]+)$ app/app/control.php?url=$1 [NC,L
+    RewriteRule ^([^\.]+)$ app/index/control.php?url=$1 [NC,L]
